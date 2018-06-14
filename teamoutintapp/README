@@ -1,0 +1,80 @@
+The Thrones
+- Vipin Jain
+- Mahak Goyal
+- Rajat Mathur
+
+Problem statement - 
+===================
+Team outing date, place and people finalization is a complicated
+excercise. This requires lot of energy and time from various people of
+team, therefore wastes lots of time.
+
+Solution -
+===========
+
+Simplify the team outing planning process and provide a web interface
+for voting of place, people, and date. System is smart enough to propose
+suitable dates of people. It provides live status of voting by people,
+date, and place.
+
+- Photo sharing 
+- Like/dislike of outing 
+- Proposing same outing event by budget to others in the company
+
+
+Detail -
+=========
+Team Outing planner (main link)
+
+1. Front-end (input)
+1.1) Team (group, individiual list)
+1.2) Number of days
+1.3) Budget (+/- % variance)
+
+Submit information from front-end and back-end.
+
+2. Back-end
+2.1) Fetch dates from outlook, leave tracking system and calendars
+to determine automatic suitable dates for team outing.
+2.2) Fetch existing team outing details by budget variance
+(generate link)
+
+3. Displays form
+3.1) Proposed dates (output information)
+3.2) Proposed places (output information)
+3.3) Send a link for voting (action)
+
+4. Individual gets a link to vote on these things (input) with deadline
+4.1) Interested/not interested
+4.2) Automatic determined dates and option to propose some other dates.
+4.3) Automatic determined places and option to propose some other places.
+
+5. On deadline dates, disclose the majority opinion (output)
+5.1) Send another link about the poll result.
+
+6. Poll result form (output)
+6.1) Graph based team outing poll information
+
+==============================================================
+
+7. Outing booking information  (output)
+7.1) Flight Tickets price fetch and display
+7.2) Hotel price fetch and display
+7.3) Select flight timing and hotel and based on selection, create admin request
+for booking.
+
+==================================================
+8. Team outing pictures upload interface
+8.1) Comment
+8.2) Likes
+8.3) Caption
+
+==================================================
+9. Review of team outing.
+
+==================================================
+10. Upload bills and expenses.
+==================================================
+
+
+URL - http://10.240.172.71:5000/?event-name=
